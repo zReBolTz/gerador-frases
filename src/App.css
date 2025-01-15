@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  min-width: 350px;
+}
+
+.title {
+  font-weight: bold;
+  color: #ffff;
+  margin: 14px 0;
+}
+
+.category-area {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 34px;
+  justify-content: center;
+}
+
+.category-bottom {
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+.button-frase {
+  background-color: #1fa4db;
+  padding: 8px 16px;
+  color: #ffff;
+  font-size: 18px;
+  border: 0;
+}
+
+.texto-frase {
+  width: 420px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  text-align: center;
+  padding: 14px 22px;
+  margin: 24px 0 16 0;
+  line-height: 150%;
+  color: #dd7b22;
+  font-style: italic;
+}
