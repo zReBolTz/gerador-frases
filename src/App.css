@@ -24,12 +24,11 @@
   justify-content: center;
 }
 
-.category-bottom {
+.category-button {
   padding: 10px 15px;
   border-radius: 4px;
   cursor: pointer;
   text-decoration: none;
-  border: none;
 }
 
 .button-frase {
@@ -38,6 +37,7 @@
   color: #ffff;
   font-size: 18px;
   border: 0;
+  cursor: pointer;
 }
 
 .texto-frase {
